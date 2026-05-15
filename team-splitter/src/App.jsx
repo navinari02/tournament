@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import html2canvas from 'html2canvas';
 import { shuffleRandom, balanceByTier } from './utils/balancer';
 
-import GroupManager from './components/GroupManager/GroupManager';
-import TeamSettings from './components/MemberInput/MemberInput';
-import MemberList from './components/MemberList/MemberList';
-import ResultDisplay from './components/ResultDisplay/ResultDisplay';
+import GroupManager from './assets/components/GroupManager/GroupManager';
+import MemberInput from './assets/components/MemberInput/MemberInput';
+import MemberList from './assets/components/MemberList/MemberList';
+import ResultDisplay from './assets/components/ResultDisplay/ResultDisplay';
 
 function App() {
   const [members, setMembers] = useState([]);
