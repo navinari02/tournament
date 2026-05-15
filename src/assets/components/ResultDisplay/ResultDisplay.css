@@ -1,0 +1,48 @@
+.result-section { margin-top: 24px; }
+.capture-area {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  padding: 24px;
+  border-radius: var(--radius);
+  color: white;
+}
+.capture-header { text-align: center; margin-bottom: 20px; }
+.capture-header h3 { font-size: 18px; letter-spacing: 1px; color: #38bdf8; }
+.capture-header p { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+.team-grid-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+.team-gradient-card {
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+/* 다양한 그라데이션 프리셋 */
+.card-blue { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+.card-purple { background: linear-gradient(135deg, #581c87 0%, #a855f7 100%); }
+.card-emerald { background: linear-gradient(135deg, #064e3b 0%, #10b981 100%); }
+.card-orange { background: linear-gradient(135deg, #7c2d12 0%, #f97316 100%); }
+
+.team-card-title { font-size: 16px; font-weight: 800; letter-spacing: 0.5px; }
+.team-score { font-size: 11px; opacity: 0.7; margin-bottom: 12px; }
+.team-member-ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.team-member-ul li {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.mini-badge { font-size: 11px; background: rgba(0,0,0,0.2); padding: 2px 4px; border-radius: 4px; }
+.btn-download {
+  width: 100%;
+  background: var(--success);
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: var(--radius);
+  margin-top: 16px;
+}
